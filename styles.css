@@ -29,7 +29,7 @@ main{
     background-color: var(--white);
     max-width: 70%;
     padding: 30px;
-    margin: auto;
+    margin: 60px auto 20px auto;
     border-radius: 15px;
 }
 
