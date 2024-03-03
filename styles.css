@@ -50,10 +50,11 @@ h2{
     color: var(--nutmeg);
 }
 
-h3{
+.prep p{
     color: var(--dark-raspberry);
     padding-left: 20px;
     font-family: var(--body);
+    font-weight: 600;
 }
 
 p, li{
