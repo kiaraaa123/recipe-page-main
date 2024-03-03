@@ -1,0 +1,127 @@
+:root{
+    /* COLORS */
+
+    /* Primary */
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+
+    /* FONTS */
+    --heading: "Young Serif";
+    --body: "Outfit";
+}
+
+body{
+    background-color: var(--eggshell);
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+main{
+    background-color: var(--white);
+    max-width: 70%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+img{
+    max-width: 100%;
+    border-radius:15px;
+}
+
+h1, h2{
+    font-family: var(--heading);
+}
+
+h1{
+    color: var(--dark-charcoal);
+}
+
+h2{
+    color: var(--nutmeg);
+}
+
+h3{
+    color: var(--dark-raspberry);
+    padding-left: 20px;
+    font-family: var(--body);
+}
+
+p, li{
+    font-family: var(--body);
+    font-size: 16px;
+    color: var(--wenge-brown);
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+li{
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+li::marker{
+    color: var(--dark-raspberry);
+}
+
+hr{
+    color: var(--wenge-brown);
+    opacity: 0.3;
+}
+
+.prep{
+    background-color: hsl(332, 51%, 32%, 0.06);
+    padding: 3px;
+    border-radius: 15px;
+}
+
+table{
+    width: 70%;
+}
+
+th, td{
+    font-family: var(--body);
+    font-size: 16px;
+    padding: 10px;
+}
+
+th{
+    text-align: right;
+    color: var(--nutmeg);
+}
+
+td{
+    color: var(--wenge-brown);
+}
+
+tr{
+    border-bottom: 1px solid --wenge-brown;
+}
+
+a{
+    color: var(--dark-raspberry);
+}
+
+a:visited{
+    color: var(--dark-raspberry);
+}
+
+a:hover{
+    color: var(--nutmeg);
+}
+
+footer{
+    padding: 10px;
+    color: var(--wenge-brown);
+}
