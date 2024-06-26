@@ -21,8 +21,6 @@
 
 body{
     background-color: var(--eggshell);
-    max-width: 1440px;
-    min-width: 375px;
 }
 
 main{
@@ -89,13 +87,13 @@ hr{
 }
 
 table{
-    width: 70%;
+    width: 100%;
 }
 
 th, td{
     font-family: var(--body);
     font-size: 16px;
-    padding: 10px;
+    padding: 2px;
 }
 
 th{
@@ -105,10 +103,6 @@ th{
 
 td{
     color: var(--wenge-brown);
-}
-
-tr{
-    border-bottom: 1px solid --wenge-brown;
 }
 
 a{
